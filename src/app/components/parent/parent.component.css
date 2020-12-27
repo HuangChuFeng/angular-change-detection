@@ -1,0 +1,10 @@
+
+.wrapper div {
+    display: flex;
+}
+app-child-1 {
+    margin-right: 30px;
+}
+app-child-1, app-child-2 {
+    width: 50%;
+}

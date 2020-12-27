@@ -1,0 +1,19 @@
+<div class="wrapper">
+  <button (click)="changeMsg()">changeMsg</button>
+  <button #tickBtn>AppRef.tick</button> 
+
+  <!-- <span style="margin-left: 10px">{{ test$ | async }}</span> -->
+
+  <app-child [msg]="msg">
+    <div>
+      <app-child-1>
+        <app-child-1-1></app-child-1-1>
+      </app-child-1>
+      <app-child-2>
+        <app-child-2-1>
+        </app-child-2-1>
+      </app-child-2>
+    </div>
+  </app-child>
+  <!-- <app-view-child></app-view-child> -->
+</div>

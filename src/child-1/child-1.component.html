@@ -1,0 +1,12 @@
+<div class="wrapper" #wrapper>
+  child-1 {{ touch }}
+
+  <button (click)="onClick()">click</button>
+
+  <div class="tag">
+    <div #onChangesTag>ngOnChanges</div>
+    <div #doCheckTag>ngDoCheck</div>
+    <div #afterContentCheckedTag>ngAfterContentChecked</div>
+    <div #afterViewCheckedTag>ngAfterViewChecked</div>
+  </div>
+</div>

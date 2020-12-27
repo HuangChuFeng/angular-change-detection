@@ -1,0 +1,31 @@
+::ng-deep body {
+    padding: 0 40px;
+    color: #333;
+}
+
+::ng-deep .wrapper {
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 1px solid #ffa39e;
+    margin-top: 20px;
+    background: #fff;
+}
+
+::ng-deep .wrapper.active {
+    background: #fee9ea;
+}
+
+::ng-deep .tag div {
+    font-size: 12px;
+    margin-top: 6px;
+    padding: 0 3px;
+    border-radius: 3px;
+    border: 1px solid #333;
+    width: fit-content;
+}
+
+::ng-deep .tag div.active {
+    color: #1890ff;
+    background: #e6f7ff;
+    border-color: #91d5ff
+}
